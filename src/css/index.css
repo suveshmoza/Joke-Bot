@@ -1,0 +1,17 @@
+.backwall {
+	height: 100vh;
+}
+
+.joke {
+	margin-top: 10rem;
+}
+@media only screen and (max-width: 768px) {
+	.joke {
+		margin-top: 6rem;
+	}
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+	box-shadow: none !important;
+}
